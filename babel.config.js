@@ -17,7 +17,7 @@ module.exports = {
         ],
         root: ['./src'],
         alias: {
-          '*': './src', // remove this after refactor to use @foo
+          '@src': './src',
         },
       },
     ],
